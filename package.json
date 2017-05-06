@@ -1,0 +1,16 @@
+{
+  "name": "emoji-app-static",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "superstatic docs --host 0.0.0.0",
+    "build": "postcss src/style.css -o docs/style.css",
+    "watch": "postcss src/style.css -o docs/style.css -w"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "postcss-cli": "^3.2.0",
+    "precss": "^1.4.0",
+    "superstatic": "^4.1.0"
+  }
+}

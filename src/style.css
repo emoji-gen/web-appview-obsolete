@@ -1,0 +1,79 @@
+@import 'variables.css';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.wrapper {
+  padding: 32px 35px;
+}
+
+h1 {
+  margin: 0 0 25px;
+  color: $color-green-dark;
+  font-size: $font-size-xlarge;
+}
+
+p {
+  margin: 0 0 8px;
+  line-height: 1.5;
+  font-size: $font-size-medium;
+}
+
+.license {
+	h1 {
+		margin: 0 0 5px;
+		color: $color-green-dark;
+		font-size: $font-size-xlarge;
+	}
+
+	h2 {
+		margin: 20px 0 15px;
+		color: $color-green-dark;
+		font-size: $font-size-medium;
+	}
+
+	p {
+		font-size: $font-size-xsmall;
+	}
+}
+
+ul {
+	margin: 18px 0;
+
+	li {
+		margin: 10px 0;
+		padding: 1px 0 0 42px;
+		height: 30px;
+		line-height: 30px;
+		list-style-type: none;
+		list-style-position: inside;
+		background-size: 26px auto;
+		background-repeat: no-repeat;
+		background-position: 0 center;
+		font-size: $font-size-medium;
+
+		a {
+			text-decoration: none;
+
+			.owner {
+				margin-right: 2px;
+			}
+
+			.repo {
+				margin-left: 2.5px;
+			}
+		}
+
+		&.twitter {
+      background-image: url('img/twitter.png');
+      opacity: .88;
+    }
+		&.github {
+      background-image: url('img/github.png');
+      opacity: .70;
+    }
+	}
+}
