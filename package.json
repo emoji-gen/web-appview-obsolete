@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start": "superstatic docs --host 0.0.0.0",
-    "build": "postcss src/style.css -o docs/style.css",
-    "watch": "postcss src/style.css -o docs/style.css -w"
+    "build": "postcss src/style.css -o docs/style.min.css",
+    "watch": "postcss src/style.css -o docs/style.min.css -w"
   },
   "license": "MIT",
   "devDependencies": {
