@@ -19,7 +19,7 @@ $ yarn run build
 
 ```
 # watch & compile PostCSS files
-$ yarn watch
+$ yarn run watch
 
 # run development HTTP server
 $ yarn start
