@@ -1,6 +1,8 @@
 Emoji-App-Static
 ----------------
 
+:comet: Static pages for Emoji Generator apps
+
 ## Requirements
 
 - Node v6
