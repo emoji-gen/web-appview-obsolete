@@ -1,0 +1,28 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/workspace
+    docker:
+      - image: node:6.10.3
+    steps:
+      - checkout
+      - restore_cache:
+          key: Emoji-App-Static-{{ checksum "yarn.lock" }}
+      - run:
+          name: System information
+          command: |
+            echo "Node $(node -v)"
+            echo "Yarn v$(yarn --version)"
+      - run:
+          name: Install dependencies (Node)
+          command: yarn
+      - run:
+          name: Test (Node)
+          command: |
+            yarn run build
+            if [ $CIRCLE_BRANCH = 'master' ]; then scripts/test/git-status.sh; fi
+      - save_cache:
+          key: Emoji-App-Static-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/workspace/node_modules
+            - ~/.cache/yarn/
