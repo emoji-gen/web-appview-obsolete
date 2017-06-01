@@ -5,7 +5,7 @@ Emoji-App-Static
 
 ## Requirements
 
-- Node v6
+- Node `$(cat .node-version)`
 - Yarn
 
 ## Getting Started
