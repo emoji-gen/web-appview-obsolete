@@ -80,3 +80,45 @@ html, body {
     font-size: $font-size-xsmall;
   }
 }
+
+.privacy {
+  h1 {
+    margin: 0 0 25px;
+    color: $color-green-dark;
+    font-size: $font-size-xlarge;
+  }
+
+  h2 {
+    margin: 25px 0 15px;
+    color: $color-green-dark;
+    font-size: $font-size-medium;
+  }
+
+  p {
+    margin: 0 0 8px;
+    line-height: 1.5;
+    font-size: $font-size-medium;
+
+    &.footer {
+      margin: 20px 0 0;
+      text-align: right;
+    }
+  }
+
+  ul {
+    padding: 0;
+    margin: 0 0 8px 0;
+    list-style-type: none;
+    list-style-position: inside;
+    font-size: $font-size-medium;
+
+    li + li {
+      margin-top: 6px;
+    }
+  }
+
+  address {
+    font-size: $font-size-medium;
+    font-style: normal;
+  }
+}
