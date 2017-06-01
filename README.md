@@ -1,5 +1,4 @@
-Emoji-App-Static
-----------------
+## Emoji-App-Static &nbsp;[![CircleCI](https://circleci.com/gh/emoji-gen/Emoji-App-Static/tree/master.svg?style=shield)](https://circleci.com/gh/emoji-gen/Emoji-App-Static/tree/master) [![Dependency Status](https://gemnasium.com/badges/github.com/emoji-gen/Emoji-App-Static.svg)](https://gemnasium.com/github.com/emoji-gen/Emoji-App-Static)
 
 :comet: Static pages for Emoji Generator apps
 
