@@ -10,8 +10,8 @@
   "license": "MIT",
   "devDependencies": {
     "csswring": "^6.0.0",
-    "postcss-cli": "^3.2.0",
+    "postcss-cli": "^4.1.0",
     "precss": "^1.4.0",
-    "superstatic": "^4.1.0"
+    "superstatic": "^4.1.1"
   }
 }
